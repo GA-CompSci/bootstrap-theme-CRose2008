@@ -1,5 +1,15 @@
 /***** 
 COLOR CHEAT SHEET 
+https://coolors.co/b9d6f2-061a40-0353a4-006daa-003559
+https://coolors.co/b9d6f2-061a40-0353a4-006daa-003559
+b9d6f2-Light Blue 
+061a40-Dark Blue
+b9d6f2-Blue Blue 
+006daa- Slightly Light Blue 
+003559-Navy Blue 
+UNITED BLUE: #0400ff;
+OJ-(241, 134, 11, 0.842)
+ 
 
 
 *****/
@@ -9,9 +19,44 @@ COLOR CHEAT SHEET
 /******* FONTS ******/
 /********************/
 body, p {
+    font-family: "Poppins", sans-serif;
 
 }
 
 h1, h2, h3, h4, h5, h6 {
+    font-family: "Roboto Slab", serif;
+}
+/********************/
+/******* HERO ******/
+/********************/
+header.masthead{
+    background: url('../img/BG.jpg');
+}.masthead h1{
+    color:#f4a261;
+    text-shadow: 2px spx 5px black;
+    font-size:90px !important;
+}
+.masthead p{
+    color: wheat;
+    text-shadow: 1px 1px 2px black;
+    font-size:30px !important;
+}
+/********************/
+/******* COLORS ******/
+/********************/
+.btn-primary{
+    background-color:#006daa;
+    border: 2px solid #003559;
+}
+.btn-primary:hover{
+    background-color:#b9d6f2;
+    border: 2px solid #061a40;
+}
+.btn-primary:hover{
+    background-color: #0400ff;
+    
 
+}
+.bg-primary {
+    background-color:rgba(138, 186, 231, 0.842)  !important;
 }
