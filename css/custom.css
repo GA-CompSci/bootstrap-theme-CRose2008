@@ -18,7 +18,8 @@ OJ-(241, 134, 11, 0.842)
 /********************/
 /******* FONTS ******/
 /********************/
-body, p {
+body,
+p {
     font-family: "Poppins", sans-serif;
 
 }
@@ -26,37 +27,55 @@ body, p {
 h1, h2, h3, h4, h5, h6 {
     font-family: "Roboto Slab", serif;
 }
+
 /********************/
 /******* HERO ******/
 /********************/
-header.masthead{
+header.masthead {
     background: url('../img/BG.jpg');
-}.masthead h1{
-    color:#f4a261;
-    text-shadow: 2px spx 5px black;
-    font-size:90px !important;
 }
-.masthead p{
+
+.masthead h1 {
+    color: #f4a261;
+    text-shadow: 2px spx 5px black;
+    font-size: 90px !important;
+}
+
+.masthead p {
     color: wheat;
     text-shadow: 1px 1px 2px black;
-    font-size:30px !important;
+    font-size: 30px !important;
 }
+
 /********************/
 /******* COLORS ******/
 /********************/
-.btn-primary{
-    background-color:#006daa;
+.btn-primary {
+    background-color: #006daa;
     border: 2px solid #003559;
 }
-.btn-primary:hover{
-    background-color:#b9d6f2;
+
+.btn-primary:hover {
+    background-color: #b9d6f2;
     border: 2px solid #061a40;
 }
-.btn-primary:hover{
-    background-color: #0400ff;
-    
 
+.btn-primary:hover {
+    background-color: #0400ff;
 }
+
 .bg-primary {
-    background-color:rgba(138, 186, 231, 0.842)  !important;
+    background-color: rgba(138, 186, 231, 0.842) !important;
+}
+
+.text-primary {
+    color: #070be6 !important;
+
+}a {
+    color:#070be6 var(--bs-link-color);
+    text-decoration: underline;
+}
+#mainNav.navbar-shrink.navbar-nav.nav-item.nav-link:hover,
+#mainNav.navbar-shrink.navbar-brand:hover{
+    color:#b9d6f2
 }
