@@ -32,7 +32,7 @@ h1, h2, h3, h4, h5, h6 {
 /******* HERO ******/
 /********************/
 header.masthead {
-    background: url('../img/BG.jpg');
+    background: url('../img/bg99.jpg');
 }
 
 .masthead h1 {
@@ -71,11 +71,27 @@ header.masthead {
 .text-primary {
     color: #070be6 !important;
 
-}a {
+}
+a {
     color:#070be6 var(--bs-link-color);
     text-decoration: underline;
 }
+/********************/
+/******* NAV ******/
+/********************/
 #mainNav.navbar-shrink.navbar-nav.nav-item.nav-link:hover,
 #mainNav.navbar-shrink.navbar-brand:hover{
-    color:#b9d6f2
+    color:#b9d6f2;
+}
+
+#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover,
+#mainNav.navbar-shrink .navbar-brand:hover {
+    color: #336cd6;
+}
+
+/********************/
+/******* Top 6 ******/
+/********************/
+#portfolio .container-fluid .portfolio-box .portfolio-box-caption, #portfolio .container-sm .portfolio-box .portfolio-box-caption, #portfolio .container-md .portfolio-box .portfolio-box-caption, #portfolio .container-lg .portfolio-box .portfolio-box-caption, #portfolio .container-xl .portfolio-box .portfolio-box-caption, #portfolio .container-xxl .portfolio-box .portfolio-box-caption {
+    background: rgba(7, 68, 138, 0.582);
 }
