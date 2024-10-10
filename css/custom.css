@@ -68,8 +68,11 @@ header.masthead {
     background-color: rgba(138, 186, 231, 0.842) !important;
 }
 
+.bg-dark {
+    background-color: #006daa !important;
+}
 .text-primary {
-    color: #070be6 !important;
+    color: #336cd6 !important;
 
 }
 a {
